@@ -1,16 +1,22 @@
-## Hi there 👋
+<h3 align="center">👋 Hi there, I'm Ridho Kurnia</h3>
 
-<!--
-**dhoridho/dhoridho** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align=center>
+  Software Engineer in the Making | Undergraduate at Bina Nusantara University | Based in Jakarta, Indonesia
+</p>
 
-Here are some ideas to get you started:
+---
+An aspiring software engineer, passionate about building efficient systems and exploring new technologies.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**What I do**
+- Explore Odoo integrations  
+- Dive into Python-based backend logic  
+- Experiment with frontend implementations (HTML, Java)
+
+**Currently**  
+Developing real-world projects while pursuing my degree.
+
+---
+
+**Let’s connect**  
+[LinkedIn](https://www.linkedin.com/in/ridhokurniaputra)
+[Email](mailto:ridhokp@proton.me) 
