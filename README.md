@@ -10,7 +10,7 @@ An aspiring software engineer, passionate about building efficient systems and e
 **What I do**
 - Explore Odoo integrations  
 - Dive into Python-based backend logic  
-- Experiment with frontend implementations (HTML, Java)
+- Experiment with frontend implementations 
 
 **Currently**  
 Developing real-world projects while pursuing my degree.
