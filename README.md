@@ -30,10 +30,10 @@ Previously an ERP developer at HashMicro. Computer Science at Bina Nusantara Uni
 
 | System | Stack | Notes |
 | :--- | :--- | :--- |
-| **Distribution Management System** | ![Odoo](https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) | 100+ instances across several production servers. Playbooks handle backups, deploys, and health checks. |
-| **Central ERP** | ![Odoo](https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) | Custom modules for order-to-cash, procure-to-pay, and manufacturing flows. |
-| **Cache layer** | ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) | Caches Odoo `search`/`read`. With index work, cut DB CPU ~80% under peak sales force traffic. |
-| **Integrations** | ![REST](https://img.shields.io/badge/REST-52525B?style=flat-square) ![XML-RPC](https://img.shields.io/badge/XML--RPC-52525B?style=flat-square) | Middleware between the ERP, external systems, and mobile apps. |
+| **Distribution Management System** | `Odoo` `Docker` `Ansible` | 100+ instances across several production servers. Playbooks handle backups, deploys, and health checks. |
+| **Central ERP** | `Odoo` `PostgreSQL` | Custom modules for order-to-cash, procure-to-pay, and manufacturing flows. |
+| **Cache layer** | `Redis` | Caches Odoo `search`/`read`. With index work, cut DB CPU ~80% under peak sales force traffic. |
+| **Integrations** | `REST` `XML-RPC` | Middleware between the ERP, external systems, and mobile apps. |
 
 <br/>
 
