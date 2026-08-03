@@ -7,20 +7,16 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ridhokurniaputra">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://dhoridho.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-09090B?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTQuNSAxNC41IDAgMCAwIDAgMjAgMTQuNSAxNC41IDAgMCAwIDAtMjAiLz48cGF0aCBkPSJNMiAxMmgyMCIvPjwvc3ZnPg==" alt="Portfolio"/>
-  </a>
-  <a href="mailto:dhoridhokp@gmail.com">
-    <img src="https://img.shields.io/badge/Email-14B8A6?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
+  <a href="https://www.linkedin.com/in/ridhokurniaputra"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://dhoridho.github.io"><img src="https://img.shields.io/badge/Portfolio-09090B?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTQuNSAxNC41IDAgMCAwIDAgMjAgMTQuNSAxNC41IDAgMCAwIDAtMjAiLz48cGF0aCBkPSJNMiAxMmgyMCIvPjwvc3ZnPg==" alt="Portfolio"/></a>
+  <a href="mailto:dhoridhokp@gmail.com"><img src="https://img.shields.io/badge/Email-14B8A6?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 ---
 
 I work on Odoo ERP backends and the PostgreSQL infrastructure they run on. Day to day that means writing custom modules, tuning slow queries, and keeping 100+ Distribution Management System instances plus the central ERP running across several production servers.
+
+Moving toward Go. Most of what I enjoy building are long-running services, and that is what it is good at.
 
 Previously an ERP developer at HashMicro. Computer Science at Bina Nusantara University.
 
@@ -105,4 +101,4 @@ When several systems integrate into one ERP, what matters is whether the records
 ## Currently
 
 - Running the Odoo ERP and distribution systems above, day to day
-- Learning Go, using RIO as the practice ground
+- Open to conversations about Go roles, even if the fit is not immediate
