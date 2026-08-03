@@ -28,48 +28,12 @@ Previously an ERP developer at HashMicro. Computer Science at Bina Nusantara Uni
 
 ## What I work on
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Distribution Management System**
-
-100+ instances across several production servers. Playbooks handle backups, deploys, and health checks.
-
-<sub>Odoo · Docker · Ansible</sub>
-
-</td>
-<td width="50%" valign="top">
-
-**Central ERP**
-
-Custom modules for order-to-cash, procure-to-pay, and manufacturing flows.
-
-<sub>Odoo · PostgreSQL</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**Cache layer**
-
-Caches Odoo search and read calls. With index work, cut DB CPU ~80% under peak sales force traffic.
-
-<sub>Redis</sub>
-
-</td>
-<td width="50%" valign="top">
-
-**Integrations**
-
-Middleware between the ERP, external systems, and mobile apps.
-
-<sub>REST · XML-RPC</sub>
-
-</td>
-</tr>
-</table>
+| System | Stack | Notes |
+| :--- | :--- | :--- |
+| **Distribution Management System** | Odoo, Docker, Ansible | 100+ instances across several production servers. Playbooks handle backups, deploys, and health checks. |
+| **Central ERP** | Odoo, PostgreSQL | Custom modules for order-to-cash, procure-to-pay, and manufacturing flows. |
+| **Cache layer** | Redis | Caches Odoo `search`/`read`. With index work, cut DB CPU ~80% under peak sales force traffic. |
+| **Integrations** | REST, XML-RPC | Middleware between the ERP, external systems, and mobile apps. |
 
 <br/>
 
