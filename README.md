@@ -41,7 +41,7 @@ Previously an ERP developer at HashMicro. Computer Science at Bina Nusantara Uni
 
 All three are for Akasha Wira International, started from my own proposal rather than an assignment.
 
-### Full-stack high availability for Odoo
+### [Full-stack high availability for Odoo ↗](https://github.com/dhoridho/odoo-ha-stack)
 
 Started as an experiment on three bare-metal servers, now approved for production rollout. The question I was chasing: can an on-premise Odoo cluster survive losing any single node, with no cloud or managed services anywhere in the design.
 
@@ -58,7 +58,7 @@ Verified on real hardware: any single machine can go down and the cluster keeps 
 
 <br/>
 
-### Fleet automation with Ansible
+### [Fleet automation with Ansible ↗](https://github.com/dhoridho/ansible-odoo-automation)
 
 Playbooks that drive the whole instance fleet from one place: nightly database and filestore backups, rolling restarts, git pull with module upgrades, and health checks that curl every domain and only report what is actually down. Everything runs as async parallel tasks rather than one server at a time, and failures are batched into a single Discord message per server instead of flooding the channel. The Prometheus and Grafana monitoring stack deploys through the same playbooks.
 
@@ -66,7 +66,7 @@ Running in production across the distribution servers today.
 
 <br/>
 
-### RIO, a system reliability control panel in Go
+### [RIO, a system reliability control panel in Go ↗](https://github.com/dhoridho/rio)
 
 When several systems integrate into one ERP, what matters is whether the records they leave behind are actually correct. RIO checks that independently of how the write happened. It runs out of band: Odoo pings it when a record is created, RIO keeps that ID on a short watch list, queries Postgres directly a few minutes later, and alerts Discord when the result is wrong, such as a self-referencing external ID or a status outside the configured whitelist. Some cases it repairs on its own. A small HTTPS dashboard shows what is currently under watch.
 
