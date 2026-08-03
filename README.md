@@ -45,14 +45,14 @@ All three are for Akasha Wira International, started from my own proposal rather
 
 Started as an experiment on three bare-metal servers, now approved for production rollout. The question I was chasing: can an on-premise Odoo cluster survive losing any single node, with no cloud or managed services anywhere in the design.
 
-| Layer | How it survives a node loss |
-| :--- | :--- |
-| Database | Patroni over etcd promotes a replica, PgBouncer keeps the app connected |
-| Sessions | Redis Sentinel across three nodes |
-| App | Odoo replicas on Docker Swarm behind Traefik, sticky sessions preserved |
-| Filestore | Three-node MinIO quorum |
-| Entrypoint | Keepalived virtual IP |
-| Visibility | Prometheus, Grafana, Loki, Alertmanager |
+How each layer handles losing a node:
+
+- **Database**: Patroni over etcd promotes a replica, PgBouncer keeps the app connected
+- **Sessions**: Redis Sentinel across three nodes
+- **App**: Odoo replicas on Docker Swarm behind Traefik, sticky sessions preserved
+- **Filestore**: three-node MinIO quorum
+- **Entrypoint**: Keepalived virtual IP
+- **Visibility**: Prometheus, Grafana, Loki, Alertmanager
 
 Verified on real hardware: any single machine can go down and the cluster keeps serving.
 
